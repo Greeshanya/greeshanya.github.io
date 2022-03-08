@@ -42,13 +42,9 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-<<<<<<< HEAD
-    const deadline = '2022-05-11';
-=======
     //Timer
 
-    const deadline = '2021-05-018';
->>>>>>> parent of 6673fca (new food)
+    const deadline = '2022-05-11';
 
     function getTimeRemaining(endtime) {
         const t = Date.parse(endtime) - Date.parse(new Date()),
