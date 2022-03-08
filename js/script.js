@@ -104,7 +104,8 @@ window.addEventListener('DOMContentLoaded', () => {
         function openModal () {
             modal.classList.add('show');
             modal.classList.remove('hide');
-            // modal.classList.toggle('show'); //как альтернатива
+            // modal.classList.toggle('show'); 
+            //как альтернатива
             document.body.style.overflow = 'hidden';
             clearInterval(modalTimerId);
         }    
